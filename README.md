@@ -19,4 +19,17 @@ This is a simple Flask application that provides a health check endpoint.
   python3 app.py
 ```
 The application will start running on http://localhost:5050/. You can access the health check endpoint by navigating to http://localhost:5050/health
-  
+
+# Now Let's see the process for dockerizing the Application and running a container from it
+
+1. Navigate to the project directory
+2. Build the Docker image
+   ```bash
+      docker build -t flask-app .
+   ```
+3. Run the Docker container
+   ```bash
+      docker run -d -p 5050:5050 flask-app
+   ```
+   This command will start the Flask application inside a Docker container and map port 5050 of the host machine to port 5050 of the container
+4. You can access the Flask application by navigating to http://localhost:5050/health
