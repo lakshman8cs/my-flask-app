@@ -33,3 +33,6 @@ The application will start running on http://localhost:5050/. You can access the
    ```
    This command will start the Flask application inside a Docker container and map port 5050 of the host machine to port 5050 of the container
 4. You can access the Flask application by navigating to http://localhost:5050/health
+
+<img width="1308" alt="image" src="https://github.com/lakshman8cs/my-flask-app/assets/62003533/36d1d622-94b1-485a-a834-1edbc51f1957">
+
